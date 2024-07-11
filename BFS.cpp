@@ -1,3 +1,7 @@
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
 const int N=2e5+10;
 vector<vector<int>>v(N);
 int n;
@@ -24,4 +28,8 @@ void bfs(int src)
             }
         }
     }
+}
+
+int main(){
+
 }
